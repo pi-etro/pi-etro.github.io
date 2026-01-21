@@ -1,35 +1,57 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+    return (
+        <main className="container">
+            <section className="section about">
+                <div className="content">
+                    <div className="left">
+                        <h1 className="name">Pietro</h1>
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+                        <div className="block">
+                            <h3>Biography</h3>
+                            <p>
+                                Software engineer
+                            </p>
+                        </div>
+
+                        <div className="block">
+                            <h3>Skills</h3>
+                            <p>
+                                Backend • Java • Spring Boot
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="center">
+                        <div className="card">
+                            <span>Placeholder</span>
+                        </div>
+                    </div>
+
+                    <div className="right">
+                        <div className="stat">
+                            <span className="value">X</span>
+                            <span className="label">Highlight</span>
+                        </div>
+
+                        <div className="stat">
+                            <span className="value">Y</span>
+                            <span className="label">Highlight</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section projects">
+                <h2>Highlights</h2>
+                <p>My highlights.</p>
+            </section>
+
+            <section className="section contact">
+                <h2>Contact</h2>
+                <p>email • github • linkedin</p>
+            </section>
+        </main>
+    )
 }
-
-export default App
