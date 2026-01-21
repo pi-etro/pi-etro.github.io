@@ -1,0 +1,55 @@
+.tilt-card-wrapper {
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tilt-card {
+    position: relative;
+    width: 180px;
+    height: auto;
+    aspect-ratio: 204 / 235;
+    transform-style: preserve-3d;
+    transition: transform 0.1s ease-out;
+    will-change: transform;
+}
+
+/* The SVG IS the card */
+.tilt-card-svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))
+            drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+    transition: filter 0.3s ease;
+}
+
+.tilt-card:hover .tilt-card-svg {
+    filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.5))
+            drop-shadow(0 30px 60px rgba(0, 0, 0, 0.4))
+            drop-shadow(0 0 40px rgba(120, 80, 200, 0.15));
+}
+
+/* Stars overlay - matches SVG dimensions */
+.tilt-card-stars {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .tilt-card {
+        width: 150px;
+    }
+}
+
+@media (max-width: 640px) {
+    .tilt-card {
+        width: 130px;
+    }
+}
