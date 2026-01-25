@@ -175,9 +175,9 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="11.313709"
-   inkscape:cx="97.492347"
-   inkscape:cy="60.059882"
+   inkscape:zoom="1.4142137"
+   inkscape:cx="160.51323"
+   inkscape:cy="92.277429"
    inkscape:window-width="2560"
    inkscape:window-height="1369"
    inkscape:window-x="-8"
@@ -191,7 +191,7 @@
    id="rect17-4-0-1"
    style="stroke-width:9.14645"
    inkscape:label="frame"
-   d="m 9.9991883,-7.354352e-4 c -5.54,0 -10.00000003322,4.4599999352 -10.00000003322,9.9999999352 V 225.16528 c 0,5.54 4.46000003322,10 10.00000003322,10 H 193.64176 c 5.54,0 10,-4.46 10,-10 V 9.9992645 c 0,-5.54 -4.46,-9.9999999352 -10,-9.9999999352 z M 19.221838,9.5754363 H 184.41911 c 5.54,0 10,4.4600007 10,10.0000007 V 173.43286 c 0,5.54 -4.46,10 -10,10 H 19.221838 c -5.54,0 -9.9999997,-4.46 -9.9999997,-10 V 19.575437 c 0,-5.54 4.4599997,-10.0000007 9.9999997,-10.0000007 z"
+   d="m 9.9991883,-7.365878e-4 c -5.54,0 -10.00000003322,4.4599998878 -10.00000003322,9.9999998878 V 225.16528 c 0,5.54 4.46000003322,10 10.00000003322,10 H 193.64176 c 5.54,0 10,-4.46 10,-10 V 9.9992633 c 0,-5.54 -4.46,-9.9999998878 -10,-9.9999998878 z M 19.221838,9.5754351 H 184.41911 c 5.54,0 10,4.4600009 10,10.0000009 V 173.43286 c 0,5.54 -4.46,10 -10,10 H 19.221838 c -5.54,0 -9.9999997,-4.46 -9.9999997,-10 V 19.575436 c 0,-5.54 4.4599997,-10.0000009 9.9999997,-10.0000009 z"
    sodipodi:nodetypes="ssssssssssssssssss" /><path
    id="path6-3-5-9"
    style="stroke-width:3.08524"
@@ -261,4 +261,8 @@
        style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-width:0.968971;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
        d="m 87.403128,22.097035 -3.77952,3.77952 -3.77952,-3.77952 3.77952,-0.188976 z"
        sodipodi:nodetypes="sssssscsss"
-       id="path28" /></g></g></svg>
+       id="path28" /></g></g><g
+   id="path4-6-5"
+   inkscape:label="legs support"
+   transform="translate(281.0008,2.0007307)"><g
+     id="g30-7" /></g></svg>
