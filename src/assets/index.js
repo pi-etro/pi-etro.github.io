@@ -5,6 +5,8 @@ import menu from "./menu.svg";
 import loginpage from "./loginpage.png";
 import randomcoffee from "./randomcoffee.png";
 import hubble from "./hubble.png";
+import octocard from "./octocard/octocard.svg";
+import foilMask from "./octocard/foil_mask.svg";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -33,4 +35,6 @@ export {
   loginpage,
   randomcoffee,
   hubble,
+  octocard,
+  foilMask,
 };

@@ -21,16 +21,7 @@ const ExperienceCard = ({ experience }) => {
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
-      icon={
-        <div className='flex justify-center items-center w-full h-full'>
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
-          />
-        </div>
-      }
+      iconStyle={{ background: "#915EFF" }}
     >
       <div>
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
@@ -60,11 +51,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+          Work Experience
         </h2>
       </motion.div>
 

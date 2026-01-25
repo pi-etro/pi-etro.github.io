@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { close, logo, menu } from "../assets";
+import { close, menu } from "../assets";
 import { devName, navSections } from "../constants";
 import { styles } from "../styles";
 
@@ -53,7 +53,6 @@ const Navbar = () => {
           className="flex items-center gap-2"
           onClick={handleHomeClick}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer">
             {devName}
           </p>

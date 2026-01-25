@@ -11,7 +11,7 @@ const Contact = () => {
           {/* Left Section - Name and Copyright */}
           <div>
             <h2 className="text-white text-2xl font-bold mb-2">{devName}</h2>
-            <p className="text-white text-sm">E-mail: {email}</p>
+            <a href={`mailto:${email}`} className="text-white text-sm hover:text-purple-300 transition-colors duration-300">{email}</a>
           </div>
 
           {/* Right Section - Social Links */}
